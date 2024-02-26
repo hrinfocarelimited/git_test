@@ -1,7 +1,4 @@
 deployment:
   tasks:
     - /bin/cp -R * /public_html/git_test
-    - /bin/rm -rf /public_html/git_test/node_modules
-    - /bin/rm -rf /public_html/git_test/.git
-    - /bin/rm -rf /public_html/git_test/.gitignore
     - /bin/rm -rf /public_html/git_test/.cpanel.yml
