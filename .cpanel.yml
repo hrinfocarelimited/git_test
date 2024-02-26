@@ -1,9 +1,8 @@
----
 deployment:
- tasks:
- - export DEPLOYPATH=/home/devhrinf/repositories/git_test
- - /bin/cp -R * $DEPLOYPATH
- - /bin/rm -rf $DEPLOYPATH/node_modules
- - /bin/rm -rf $DEPLOYPATH/.git
- - /bin/rm -rf $DEPLOYPATH/.gitignore
- - /bin/rm -rf $DEPLOYPATH/.cpanel.yml
+  tasks:
+    - export DEPLOYPATH=public_html/git_test
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/node_modules
+    - /bin/rm -rf $DEPLOYPATH/.git
+    - /bin/rm -rf $DEPLOYPATH/.gitignore
+    - /bin/rm -rf $DEPLOYPATH/.cpanel.yml
