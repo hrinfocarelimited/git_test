@@ -1,8 +1,7 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=public_html/git_test
-    - /bin/cp -R * $DEPLOYPATH
-    - /bin/rm -rf $DEPLOYPATH/node_modules
-    - /bin/rm -rf $DEPLOYPATH/.git
-    - /bin/rm -rf $DEPLOYPATH/.gitignore
-    - /bin/rm -rf $DEPLOYPATH/.cpanel.yml
+    - /bin/cp -R * /public_html/git_test
+    - /bin/rm -rf /public_html/git_test/node_modules
+    - /bin/rm -rf /public_html/git_test/.git
+    - /bin/rm -rf /public_html/git_test/.gitignore
+    - /bin/rm -rf /public_html/git_test/.cpanel.yml
