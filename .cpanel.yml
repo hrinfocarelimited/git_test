@@ -1,4 +1,5 @@
+---
 deployment:
   tasks:
-    - /bin/cp -R * /public_html/git_test
-    - /bin/rm -rf /public_html/git_test/.cpanel.yml
+    - /bin/cp -R * /home/devhrinf/public_html/git_test
+    - /bin/rm -rf /home/devhrinf/public_html/git_test/.cpanel.yml
